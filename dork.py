@@ -16,6 +16,7 @@ def banner(function):
         function(*args, **kwargs)
     return printed_text
 
+
 def write_file(filename, content):
     try:
         with open(filename, "a+") as file:
@@ -27,15 +28,20 @@ def write_file(filename, content):
     finally:
         file.close()
 
+
 @banner
 def main(argv):
     if len(argv) != 2:
         print('[!] Usage : {} "your dork"'.format(argv[0]))
         exit(1)
 
-    my_dorker = MyDorker()
-    my_dorker.dork = argv[-1]
-    url_found = set(my_dorker.google_dorker() + list(my_dorker.bing_dorker()))
+    try:
+        my_dorker = MyDorker()
+        my_dorker.dork = argv[-1]
+        url_found = set(my_dorker.google_dorker() + list(my_dorker.bing_dorker()))
+    except KeyboardInterrupt as Error:
+        print('[-] You stopped the program.')
+        exit(1)
 
     if bool(url_found) != False:
         for url in url_found:
