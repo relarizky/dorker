@@ -30,4 +30,5 @@ optional arguments:
 ```
 
 ## Preview
-[![asciicast](https://asciinema.org/a/q2huixWkbFWTN68kVFCnnacBd.svg)](https://asciinema.org/a/q2huixWkbFWTN68kVFCnnacBd)
+
+[![asciicast](https://asciinema.org/a/NxEZHytajAoUzmVqmSIQ6ddiU.svg)](https://asciinema.org/a/NxEZHytajAoUzmVqmSIQ6ddiU)
