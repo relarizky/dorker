@@ -3,10 +3,6 @@ import os as system
 import re as regex
 from requests.utils import requote_uri as encode
 
-if __name__ == '__main__':
-    print("./dork.py \"your dork\".")
-    sys.exit(1)
-
 class MyDorker():
 
     def __init__(self, dork = ''):
@@ -86,3 +82,8 @@ class MyDorker():
                 break
             page += 10
         return urls_found
+
+
+if __name__ == '__main__':
+    print("./dork.py \"your dork\".")
+    sys.exit(1)
