@@ -13,15 +13,19 @@ $ ./dork.py
 
 ## usage
 ```
- _____   ___       _    ____
-|  __ \ / _ \     | |  |___ \
-| |  | | | | |_ __| | __ __) |_ __
-| |  | | | | | '__| |/ /|__ <| '__|
-| |__| | |_| | |  |   < ___) | |
-|_____/ \___/|_|  |_|\_\____/|_|
-        [C0ded by br0k3nh34rtz]
+usage: dork.py [-h] [-b | -g | -a] [-f FILE] dork
 
-[!] Usage : ./dork.py "your dork"
+Simple python based script for dorking with Google and Bing
+
+positional arguments:
+  dork                  dork that you would like to search with
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b, --bing            dorking with bing search engine
+  -g, --google          dorking with google search engine
+  -a, --all             dorking with both bing and google search engine
+  -f FILE, --file FILE  filename you'd like to use for saving output
 
 ```
 
