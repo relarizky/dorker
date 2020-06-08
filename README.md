@@ -3,6 +3,7 @@
 > Simple python based script for dorking with Google and Bing Search Engine
 
 [![Build Status](https://travis-ci.com/relarizky/dorker.svg?branch=master)](https://travis-ci.com/relarizky/dorker)
+[![license](https://img.shields.io/apm/l/vim-mode)](https://img.shields.io/apm/l/vim-mode)
 
 ## Instalation
 ```
