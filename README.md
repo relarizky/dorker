@@ -2,6 +2,8 @@
 
 > Simple python based script for dorking with Google and Bing
 
+[![Build Status](https://travis-ci.com/relarizky/dorker.svg?branch=master)](https://travis-ci.com/relarizky/dorker)
+
 ## Instalation
 ```
 $ git clone https://github.com/relarizky/dorker.git
