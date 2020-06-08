@@ -5,3 +5,6 @@ python:
 
 install:
         - pip install requests
+
+script:
+        - ./dork.py -h
