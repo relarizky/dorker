@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.com/relarizky/dorker.svg?branch=master)](https://travis-ci.com/relarizky/dorker)
 [![license](https://img.shields.io/apm/l/vim-mode)](https://img.shields.io/apm/l/vim-mode)
+[![Python version](https://img.shields.io/pypi/pyversions/django)](https://img.shields.io/pypi/pyversions/django)
+[![tested os](https://img.shields.io/badge/Tested%20on-ubuntu%2019.10-critical)](https://img.shields.io/badge/Tested%20on-ubuntu%2019.10-critical)
 
 ## Instalation
 ```
