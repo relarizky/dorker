@@ -1,6 +1,6 @@
 # Dorker
 
-> Simple python based script for dorking with Google and Bing
+> Simple python based script for dorking with Google and Bing Search Engine
 
 [![Build Status](https://travis-ci.com/relarizky/dorker.svg?branch=master)](https://travis-ci.com/relarizky/dorker)
 
