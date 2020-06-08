@@ -1,6 +1,6 @@
 language: python
 version: 3.7.15
-language:
+python:
         components:
                 - requests
                 - argparse
