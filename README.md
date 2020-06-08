@@ -7,7 +7,7 @@
 [![Python version](https://img.shields.io/pypi/pyversions/django)](https://img.shields.io/pypi/pyversions/django)
 [![tested os](https://img.shields.io/badge/Tested%20on-ubuntu%2019.10-critical)](https://img.shields.io/badge/Tested%20on-ubuntu%2019.10-critical)
 
-<a style="text-align: center;" href="https://asciinema.org/a/NxEZHytajAoUzmVqmSIQ6ddiU" target="_blank"><img alt="tools-preview" src="https://asciinema.org/a/NxEZHytajAoUzmVqmSIQ6ddiU.svg"></a>
+<a align="center" href="https://asciinema.org/a/NxEZHytajAoUzmVqmSIQ6ddiU" target="_blank"><img alt="tools-preview" src="https://asciinema.org/a/NxEZHytajAoUzmVqmSIQ6ddiU.svg"></a>
 
 ## Instalation
 ```
