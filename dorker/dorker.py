@@ -1,6 +1,7 @@
 import requests,sys
 import os as system
 import re as regex
+from urllib.parse import unquote as decode
 from requests.utils import requote_uri as encode
 
 class MyDorker():
@@ -51,7 +52,7 @@ class MyDorker():
 
             if found:
                 for cseurl in found:
-                    found_url.append(parse_found_targeturl.findall(cseurl)[0])
+                    found_url.append(decode(parse_found_targeturl.findall(cseurl)[0]))
 
                 for url in found_url:
                     print(url)
